@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'NorseBold';
+  src: url('/assets/font/Norse-Bold.otf') format('opentype');
+}
+
+body {
+  font-family: 'NorseBold', sans-serif;
+}
