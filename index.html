@@ -4,9 +4,78 @@
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Odin sign up form</title>
+  <link rel='stylesheet' href='./assets/style/reset/reset-modern.css'>
   <link rel='stylesheet' href='./assets/style/style.css'>
 </head>
 <body>
-  
+
+  <div class='container'>
+
+    <aside class='left-side'>
+      <header class='logo'>
+        <img class='logo-icon' src='./assets/logo/odin-lined-logo.png' alt='Odin logo icon'>
+        <h1 class='logo-text'>Odin</h1>
+      </header>
+    </aside>
+
+    <main class='right-side-container'>
+      <section>
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+        <p>Sign up <span>now</span> to get started.</p>
+        <p>You <span>know</span> you want to.</p>
+      </section>
+      
+      <div class='form-container'>
+        <div class='form-borders'>
+
+          <h3>Let's do this!</h3>
+
+          <form action='#' method='post'>
+
+            <div class='form-row'>
+              <label for='first-name'>First name</label>
+              <input id='first-name' name='first-name' type='text'>
+            </div>
+
+            <div class='form-row'>
+              <label for='last-name'>Last name</label>
+              <input id='last-name' name='last-name' type='text'>
+            </div>
+
+            <div class='form-row'>
+              <label for='email'>Email</label>
+              <input id='email' name='email' type='email'>
+            </div>
+
+            <div class='form-row'>
+              <label for='phone-number'>Phone number</label>
+              <input id='phone-number' name='phone-number' type='tel'>
+            </div>
+
+            <div class='form-row'>
+              <label for='password'>Password</label>
+              <input id='password' name='password' type='password'>
+            </div>
+
+            <div class='form-row'>
+              <label for='confirm-password'>Confirm password</label>
+              <input id='confirm-password' name='confirm-password' type='password'>
+            </div>
+
+        </div>
+
+        <button type='submit'>Create Account</button>
+
+        </form>
+
+        <footer>
+          Already have an account? <a href='#'>Log in</a> 
+        </footer>
+
+      </div>
+    </main>
+
+  </div>
+
 </body>
 </html>
