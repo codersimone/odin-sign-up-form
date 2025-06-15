@@ -4,5 +4,10 @@
 }
 
 body {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+}
+
+.logo-text {
   font-family: 'NorseBold', sans-serif;
 }
