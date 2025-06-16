@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   width: 40%;
-  background: url('/assets/pic/halie-west-unsplash.jpg') center/cover no-repeat;
+  background: url('../../pic/halie-west-unsplash.jpg') center/cover no-repeat;
   color: var(--white-85);
 }
 
