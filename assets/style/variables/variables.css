@@ -1,0 +1,19 @@
+:root {
+  /* Colors */
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --off-white: rgb(249, 249, 249);
+  --light-gray: rgb(229, 231, 235);
+  --medium-gray: rgb(85, 85, 85);
+  --dark-gray: rgb(51, 51, 51);
+  --green: rgb(89, 109, 72);
+  --green-hover: rgb(107, 142, 35);
+  --blue: rgb(0, 0, 255);
+  --red: rgb(255, 0, 0);
+
+  /* Transparency */
+  --white-85: rgba(255, 255, 255, 0.85);
+  --black-50: rgba(0, 0, 0, 0.5);
+  --black-shadow: rgba(0, 0, 0, 0.3);
+  --black-shadow-light: rgba(0, 0, 0, 0.4);
+}
