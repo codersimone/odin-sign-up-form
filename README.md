@@ -6,7 +6,8 @@
 -   [Directory overview](#directory-overview)
 -   [Color System](#color-system)
 -   [Key Features](#key-features)
--   [Credits](#credits)
+-   [Resources Used](#resources-used)
+-   [To-Do and Ideas for Future](#to-do-and-ideas-for-future)
 -   [Рublished Website](#published-website)
 
 ## Project Description
@@ -40,10 +41,18 @@ The color and transparency values are defined using custom CSS properties for ea
 
 Note: Matching of password and confirm password fields requires JavaScript and is not included.
 
-## Credits
+## Resources Used
 
 -   Font: Norse Bold (self-hosted via @font-face)
 -   Image: Photo by [Halie West](https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA) on [Unsplash](https://unsplash.com/)
 -   Logo: Logo icon odin-lined-logo.png in the logo folder
 
+## To-Do and Ideas for Future
+
+-   Add JavaScript validation for password match
+-   Make layout responsive for smaller screens
+-   Optional: integrate with backend API or fake data submission
+
 ## Рublished Website
+
+https://codersimone.github.io/odin-sign-up-form/
