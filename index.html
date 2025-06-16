@@ -5,78 +5,68 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Odin sign up form</title>
   <link rel='stylesheet' href='./assets/style/reset/reset-modern.css'>
+  <link rel='stylesheet' href='./assets/style/variables/variables.css'>
   <link rel='stylesheet' href='./assets/style/style.css'>
+  <link rel='stylesheet' href='./assets/style/additional-style/additional-style.css'>
 </head>
 <body>
-
   <div class='container'>
-
-    <aside class='left-side'>
+    <!-- Left side -->
+    <aside class='left'>
       <header class='logo'>
-        <img class='logo-icon' src='./assets/logo/odin-lined-logo.png' alt='Odin logo icon'>
-        <h1 class='logo-text'>Odin</h1>
-        <p class='background-author-indicating'>Photo by <a href='#'>Halie West</a> on <a href='#'>Unsplash</a></p>
+        <img src='./assets/logo/odin-lined-logo.png' alt='Odin logo' />
+        <span>Odin</span>
       </header>
+      <p class='credit'>Photo by <a href='https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA'>Halie West</a> on <a href='https://unsplash.com/'>Unsplash</a></p>
     </aside>
-
-    <main class='right-side-container'>
-      <section>
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-        <p>Sign up <span>now</span> to get started.</p>
+    <!-- Right side -->
+    <main class='right'>
+      <section class='text'>
+        <p>
+          This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br> 
+          Sign up <span>now</span> to get started.
+        </p>
         <p>You <span>know</span> you want to.</p>
       </section>
-      
       <div class='form-container'>
-        <div class='form-borders'>
-
-          <h3>Let's do this!</h3>
-
-          <form action='#' method='post'>
-
-            <div class='form-row'>
+        <h3>Let's do this!</h3>
+        <!-- Form -->
+        <form id='signup-form' action='#' method='post' spellcheck='false'>
+          <div class='row'>
+            <div class='field'>
               <label for='first-name'>First name</label>
-              <input id='first-name' name='first-name' type='text'>
+              <input id='first-name' name='first-name' type='text' required />
             </div>
-
-            <div class='form-row'>
+            <div class='field'>
               <label for='last-name'>Last name</label>
-              <input id='last-name' name='last-name' type='text'>
+              <input id='last-name' name='last-name' type='text' required />
             </div>
-
-            <div class='form-row'>
+          </div>
+          <div class='row'>
+            <div class='field'>
               <label for='email'>Email</label>
-              <input id='email' name='email' type='email'>
+              <input id='email' name='email' type='email' required />
             </div>
-
-            <div class='form-row'>
+            <div class='field'>
               <label for='phone-number'>Phone number</label>
-              <input id='phone-number' name='phone-number' type='tel'>
+              <input id='phone-number' name='phone-number' type='tel' required />
             </div>
-
-            <div class='form-row'>
+          </div>
+          <div class='row'>
+            <div class='field'>
               <label for='password'>Password</label>
-              <input id='password' name='password' type='password'>
+              <input id='password' name='password' type='password' minlength='6' required />
             </div>
-
-            <div class='form-row'>
+            <div class='field'>
               <label for='confirm-password'>Confirm password</label>
-              <input id='confirm-password' name='confirm-password' type='password'>
+              <input id='confirm-password' name='confirm-password' type='password' minlength='6' required />
             </div>
-
-        </div>
-
-        <button type='submit'>Create Account</button>
-
+          </div>
         </form>
-
-        <footer>
-          Already have an account? <a href='#'>Log in</a> 
-        </footer>
-
       </div>
+      <button type='submit' form='signup-form'>Create Account</button>
+      <p class='login'>Already have an account? <a href='#'>Log in</a></p>
     </main>
-
   </div>
-
 </body>
 </html>
